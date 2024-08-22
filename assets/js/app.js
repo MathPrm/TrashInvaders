@@ -58,21 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // création d'une fonction input pour gérer les déplacements
     function input(player){
         window.addEventListener('keydown', function(e){
-            // switch(e.code) {
-            //     case "ArrowLeft":
-            //         if(player.x - 5 >= 0) {
-            //             pressLeft = true;
-            //             player.x -=5;
-            //             console.log('toto');
-            //         }
-            //     break;
-            //     case "ArrowRight":
-            //         if(player.x + player.width + 5 <= canvas.width) {
-            //             pressRight = true;
-            //             player.x += 5;
-            //         }
-            //     break;
-            // }
             switch(e.code) {
                 case "ArrowLeft":
                     pressLeft = true;
